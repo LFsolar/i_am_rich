@@ -8,7 +8,12 @@ void main() {
           title: const Text('I am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.blueGrey,
+        body: const Center(
+          child: Image(
+            image: AssetImage('images/diamond.png'),
+          ),
+        ),
       ),
     ),
   );
